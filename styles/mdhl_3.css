@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	width:100vw;
+	height:100vh;
+	background-image: url(../assets/design2_image1.jpg);
+	background-size:cover;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	background-color:white;
+	opacity:0.9;
+	transition: background-color .5s ease;
+}
+
+nav{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+header:hover{
+	background-color:red;
+}
+
+nav > a:hover{
+	background-color:white;
+}
+
+main{
+	display:flex;
+	height:90vh;
+	font-weight:bold;
+}
+
+#title{
+	font-size:3rem;
+	padding:1rem 1.5rem;
+}
+
+nav > a{
+	font-weight:bold;
+	font-size:1rem;
+	margin:1rem 4rem 1rem 4rem;
+	padding:.6rem 2rem;
+	text-decoration:none;
+	color:black;
+	border-radius:10px;
+	transition: background-color .5s ease;
+
+}
+
+#topic_container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:2rem;
+	font-weight:bold;
+	font-size:1.3rem;
+}
+
+#logo{
+	padding:2.5vh 2.5vw;
+	height:20vh;
+	transition: transform .6s ease;
+}
+
+#logo:hover{
+	transform: rotate(360deg)
+}
+
+section > article{
+	padding:5vh 0vw;
+	margin-left:7vw;
+}
+
+main > p {
+	margin:1rem;
+}
+
+article > h2{
+	font-size:1.875rem;
+}
+
+article > p{
+	font-size:1.125rem;
+}
+
+footer{
+	height:10vh;
+	background-color:red;
+	opacity:0.9;
+	color:white;
+	font-weight:bold;
+	font-size:1.125rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
